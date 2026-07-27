@@ -14,7 +14,7 @@ const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
 
 const PORT = process.env.PORT || 3000;
-const TARGET_URL = process.env.TARGET_URL || 'https://rexify.com.ng?reference=sholaupdates';
+const TARGET_URL = process.env.TARGET_URL || 'https://rexify.com.ng?reference=onaolapopraise';
 
 const mobileDevice = KnownDevices['iPhone 13 Pro'];
 
